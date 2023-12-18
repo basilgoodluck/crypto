@@ -11,15 +11,19 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.home .col-12 h1{
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.home .homeGt h1{
     font-weight: 900;
     color: white;
 }
-.home .col-12 p{
+.home .homeGt p{
     color: white;
 }
 @media screen and (max-width: 768px){
     .homeGt{
-        text-align: center;
     }
 }
