@@ -8,6 +8,15 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/pexels-tima-miroshnichenko-7567529.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden; */
+     
+}
+.body{
+    /* font-family: 'Roboto', sans-serif; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/pexels-tima-miroshnichenko-7567529.jpg");
     background-size: cover;
     background-repeat: no-repeat;
