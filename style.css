@@ -7,15 +7,13 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
-    background-color: blueviolet;
+    font-family: 'Roboto', sans-serif;     
+}
+.home{
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/but.jpg");
     background-size: 100% auto;
     background-attachment: fixed;
     background-position: center;
-     
-}
-.home{
     height: 100vh;
     display: flex;
     align-items: center;
