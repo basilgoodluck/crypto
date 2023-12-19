@@ -55,7 +55,11 @@ body{
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 78, 0.4);
 }
-/* @media screen and (max-width: 768px){
-    .homeGt{
+@media screen and (max-width: 768px){
+    .attributeSection .iconContainer h4{
+        font-size: 14px;
     }
-} */
+    .attributeSection .iconContainer p{
+        font-size: 12px;
+    }
+}
