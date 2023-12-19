@@ -9,7 +9,7 @@
 .body{
     font-family: 'Roboto', sans-serif;
     background-color: blueviolet;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/but.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/pexels-tima-miroshnichenko-7567529.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
