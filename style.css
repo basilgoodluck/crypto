@@ -16,7 +16,7 @@ body{
     scroll-behavior: smooth;
 }
 .home{
-    max-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
 }
