@@ -11,8 +11,9 @@ body{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/pexels-tima-miroshnichenko-7567529.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    overflow-x: hidden; */
+    background-position: center;*/
+    overflow-x: hidden; 
+    width: 100%;
      
 }
 .body{
@@ -21,8 +22,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow-x: hidden;
-    width: 100%;
      
 }
 .home{
