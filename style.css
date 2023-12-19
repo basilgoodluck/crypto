@@ -19,6 +19,7 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 .home .homeGt h1{
     font-weight: 900;
