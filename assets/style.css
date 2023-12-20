@@ -79,6 +79,12 @@ body{
 .headerContainer, .body, .serviceSection {
     overflow: hidden;
 }
+.portfolioContainer a{
+    font-size: 1rem;
+    background-color: #780551;
+    font-weight: 300;
+    text-decoration: none;
+}
 @media screen and (max-width: 768px){
     body .headerContainer #headerCont
     .attributeSection .iconContainer h4{
