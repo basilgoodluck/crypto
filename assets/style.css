@@ -38,7 +38,7 @@ body{
     color: white;
 }
 .aboutContainer{
-    max-height: 100vh;
+    height: 100vh;
 }
 .aboutBlurSection{
     background-color:rgba(0, 0, 0, .6);
@@ -76,12 +76,15 @@ body{
 .headerContainer, .body, .serviceSection {
     overflow: hidden;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) and (max-height: 1600px){
     body .headerContainer #headerCont
     .attributeSection .iconContainer h4{
         font-size: 14px;
     }
     .attributeSection .iconContainer p{
         font-size: 12px;
+    }
+    .aboutContainer{
+        height: 100vh;
     }
 }
