@@ -1,22 +1,16 @@
-// const header = document.querySelector("body .headerContainer #headerContainer")
+// // 
+// const about = document.getElementById("about")
+// const header = document.getElementById("mainHeaderContainer")
 
-// var sticky = header.offsetTop;
+// offSetHead = header.offsetHeight;
 
-// window.onscroll = function() {
-//     if (window.scrollY > sticky) {
-//       header.classList.add("sticky");
-//     } else {
-//       header.classList.remove("sticky");
-//     }
-//   };
-// cons
-// const aboutBtn = document.getElementById("aboutBtn")
-const about = document.getElementById("about")
+// const clike = function(){
+//     window.scrollTo({
+//         top: about.offsetTop + offSetHead,
+//         behavior: 'smooth' // Optional for smooth scrolling
+//     });
 
+// }
 
-
-clike = function(){
-    about.scrollIntoView(100)
-}
-
+// clike()
 
