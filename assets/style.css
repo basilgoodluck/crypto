@@ -37,6 +37,9 @@ body{
 .home .homeGt p{
     color: white;
 }
+.aboutContainer{
+    height: 50vh;
+}
 .aboutBlurSection{
     background-color:rgba(0, 0, 0, .6);
     border-radius: 20px;
