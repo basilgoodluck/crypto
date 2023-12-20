@@ -8,21 +8,21 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/pexels-tima-miroshnichenko-7567529.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/images/working-man.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;*/
+    background-position: center;
     overflow-x: hidden; 
     width: 100%;
      
 }
 .body{
     /* font-family: 'Roboto', sans-serif; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/pexels-tima-miroshnichenko-7567529.jpg");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/pexels-tima-miroshnichenko-7567529.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow-x: hidden;
+    overflow-x: hidden; */
      
 }
 .home{
