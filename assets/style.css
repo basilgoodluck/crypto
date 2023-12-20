@@ -13,10 +13,14 @@ body{
     overflow-x: hidden;
 }
 .headerContainer nav #navIcon{
-    color: #050114;
-    border: 1px solid#eee;
-    background-color: #fff;
+    color: #fff;
+    background-color: transparent;
     padding: 3px 5px;
+}
+.headerContainer nav #navIcon span{
+    border-radius: inherit;
+    color: #fff;
+    background-color: #fff;
 }
 .body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/images/working-man.jpg");
@@ -38,13 +42,9 @@ body{
 .home .homeGt p{
     color: white;
 }
-.aboutContainer{
-    min-height: 70vh;
-}
 .aboutBlurSection{
     background-color:rgba(0, 0, 0, .6);
     border-radius: 20px;
-    padding: 30px;
     text-align: center;
      /* backdrop-filter: blur(8px); */
     /* filter: blur(10px);/* */
@@ -60,6 +60,8 @@ body{
 .attributeSection .iconContainer i{
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 78, 0.4);
+    background-color: #780551;
+    display: inline-block;
 }
 .serviceSection .container > h1{
     font-weight: 900;
