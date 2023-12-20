@@ -55,6 +55,12 @@ body{
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 78, 0.4);
 }
+.serviceSection .container > h1{
+    font-weight: 900;
+    color: #fff;
+    z-index: 484844;
+    text-align: center;
+}
 @media screen and (max-width: 768px){
     .attributeSection .iconContainer h4{
         font-size: 14px;
