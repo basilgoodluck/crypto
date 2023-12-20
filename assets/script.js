@@ -9,12 +9,14 @@
 //       header.classList.remove("sticky");
 //     }
 //   };
-cons
-const aboutBtn = document.getElementById("aboutBtn")
+// cons
+// const aboutBtn = document.getElementById("aboutBtn")
 const about = document.getElementById("about")
 
 
 
 clike = function(){
-    window.scrollY(`${about.offsetTop} + 20"px"`)
+    about.scrollIntoView(100)
 }
+
+
