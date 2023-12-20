@@ -12,10 +12,10 @@ body{
     font-family: 'Roboto', sans-serif;   
     overflow-x: hidden;
 }
-.headerContainer .navbar{
+body .headerContainer #headerContainer{
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 84848;
 }
 .headerContainer nav #navIcon{
     color: white;
@@ -74,7 +74,11 @@ body{
 .serviceSection .serviceBody p{
     font-size: 14px;
 }
+.headerContainer, .body, .serviceSection {
+    overflow: hidden;
+}
 @media screen and (max-width: 768px){
+    body .headerContainer #headerCont
     .attributeSection .iconContainer h4{
         font-size: 14px;
     }
