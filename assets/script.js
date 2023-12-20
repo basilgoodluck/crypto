@@ -1,11 +1,11 @@
-const header = document.querySelector("body .headerContainer #headerContainer")
+// const header = document.querySelector("body .headerContainer #headerContainer")
 
-var sticky = header.offsetTop;
+// var sticky = header.offsetTop;
 
-window.onscroll = function() {
-    if (window.scrollY > sticky) {
-      header.classList.add("sticky");
-    } else {
-      header.classList.remove("sticky");
-    }
-  };
+// window.onscroll = function() {
+//     if (window.scrollY > sticky) {
+//       header.classList.add("sticky");
+//     } else {
+//       header.classList.remove("sticky");
+//     }
+//   };

@@ -12,11 +12,6 @@ body{
     font-family: 'Roboto', sans-serif;   
     overflow-x: hidden;
 }
-body .headerContainer #headerContainer{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
 .headerContainer nav #navIcon{
     color: white;
     background-color: #fff;
@@ -31,7 +26,7 @@ body .headerContainer #headerContainer{
     width: 100%;
 }
 .home{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
 }
@@ -50,6 +45,7 @@ body .headerContainer #headerContainer{
      /* backdrop-filter: blur(8px); */
     /* filter: blur(10px);/* */
     box-shadow: 0 0 30px rgba(0, 0, 78, 0.4);
+    margin-top: 20vh;
     
 }
 .aboutBlurSection h1{
