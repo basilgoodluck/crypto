@@ -38,7 +38,7 @@ body{
     color: white;
 }
 .aboutContainer{
-    height: 50vh;
+    max-height: 100vh;
 }
 .aboutBlurSection{
     background-color:rgba(0, 0, 0, .6);
