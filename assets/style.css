@@ -7,23 +7,24 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;   
+}
+.headerContainer .navbar{
+    position: sticky;
+    top: 0;
+    z-index: 84848;
+}
+.headerContainer nav #navIcon{
+    color: white;
+    background-color: #fff;
+}
+.body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/images/working-man.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow-x: hidden; 
     width: 100%;
-     
-}
-.body{
-    /* font-family: 'Roboto', sans-serif; */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/pexels-tima-miroshnichenko-7567529.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow-x: hidden; */
-     
 }
 .home{
     height: 100vh;
