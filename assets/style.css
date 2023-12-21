@@ -119,4 +119,8 @@ body{
     .portfolioContainer .linkOff a p{
         padding: 3px;
     }
+    .portfolioContainer .linkOff{
+        display: flex;
+        justify-content: space-between;
+    }
 }
