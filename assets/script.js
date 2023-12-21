@@ -21,13 +21,13 @@
 //   } else {
 //     header.style.position = 'static'; // Reset to original position when scrolled back up
 //   }
-var header = document.getElementById("headerContainer");
-var sticky = header.offsetTop;
+// var header = document.getElementById("headerContainer");
+// var sticky = header.offsetTop;
 
-window.onscroll = function() {
-  if (window.scrollY > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-};
+// window.onscroll = function() {
+//   if (window.scrollY > sticky) {
+//     header.classList.add("sticky");
+//   } else {
+//     header.classList.remove("sticky");
+//   }
+// };
