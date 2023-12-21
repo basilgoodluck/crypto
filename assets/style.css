@@ -22,6 +22,12 @@ body{
     color: #fff;
     background-color: #fff;
 }
+.headerContainer.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
 .body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/images/working-man.jpg");
     background-size: cover;
@@ -37,10 +43,10 @@ body{
 }
 .home .homeGt h1{
     font-weight: 900;
-    color: white;
+    color: #ccc;
 }
 .home .homeGt p{
-    color: white;
+    color: #ccc;
 }
 .aboutBlurSection{
     background-color:rgba(0, 0, 0, .6);
@@ -54,7 +60,7 @@ body{
 }
 .aboutBlurSection h1{
     font-weight: 900;
-    color: #fff;
+    color: #ccc;
     z-index: 484844;
 }
 .attributeSection .iconContainer i{
@@ -65,25 +71,36 @@ body{
 }
 .serviceSection .container > h1{
     font-weight: 900;
-    color: #fff;
     z-index: 484844;
     text-align: center;
 }
 .serviceSection .serviceBody h1{
     font-size: 16px;
     padding-top: calc(10px + 0.25vmin);
+    color: #ccc;
 }
 .serviceSection .serviceBody p{
     font-size: 14px;
+    color: #ccc;
 }
 .headerContainer, .body, .serviceSection {
     overflow: hidden;
 }
-.portfolioContainer a{
+.portfolioContainer .linkOff a{
     font-size: 1rem;
-    background-color: #780551;
     font-weight: 300;
     text-decoration: none;
+}
+.portfolioContainer .linkOff a p{
+    background-color: #780551;
+    display: inline-block;
+    padding: 10px;
+
+}
+.portfolioContainer > h1{
+    font-weight: 900;
+    z-index: 484844;
+    text-align: center;
 }
 @media screen and (max-width: 768px){
     body .headerContainer #headerCont
