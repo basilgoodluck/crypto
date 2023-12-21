@@ -93,6 +93,20 @@ body{
     z-index: 484844;
     text-align: center;
 }
+.carousel-item .gridItem{
+    display: grid;
+    place-items: center;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+.carousel-item .gridItem img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 @media screen and (max-width: 768px){
     body .headerContainer #headerCont
     .attributeSection .iconContainer h4{
