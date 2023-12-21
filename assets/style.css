@@ -113,4 +113,10 @@ body{
     .aboutContainer{
         min-height: 100vh;
     }
+    .portfolioContainer .linkOff a{
+        font-size: 12px;
+    }
+    .portfolioContainer .linkOff a p{
+        padding: 3px;
+    }
 }
