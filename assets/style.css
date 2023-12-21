@@ -93,6 +93,11 @@ body{
     z-index: 484844;
     text-align: center;
 }
+.reviewsSection > h1{
+    font-weight: 900;
+    z-index: 484844;
+    text-align: center;
+}
 .carousel-item .gridItem{
     display: grid;
     place-items: center;
@@ -108,6 +113,71 @@ body{
     width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+.FAQContainer{
+    color: #fff;
+}
+.FAQContainer h1{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    padding: 30px 0 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.FAQMainContainer{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem 0;
+
+}
+.questionContainer{
+    background-color: #780551;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    position: relative;
+    transition: all .3s ease;
+}
+.questionContainer h4{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px 0 5px;
+    width: 80%;
+}
+.questionContainer i{
+    border-radius: 50%;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    transform: translateY(-50%);
+}
+.questionContainer.active{
+    background-color: #780551;
+    color: #fff;
+}
+.questionContainer.active .fa-plus{
+    display: none;
+}
+.questionContainer.active .faqanx{
+    max-height: 500px;
+    transition: max-height 4s ease-in-out;
+}
+.questionContainer .faqanx{
+    font-weight: 100;
+    width: 80%;
+    font-size: 1rem;
+    padding: .2rem 0;
+    display: inline-block;
+    max-height: 0;
+    transition: .7s ease;
 }
 @media screen and (max-width: 768px){
     body .headerContainer #headerCont
