@@ -100,11 +100,11 @@ body{
     text-align: center;
 }
 .carousel-item .gridItem{
-    display: grid;
+    /* display: grid;
     place-items: center;
     place-content: center;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     gap: 20px;
     color: #fff;
 }
