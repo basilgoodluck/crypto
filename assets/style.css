@@ -74,7 +74,7 @@ body{
     font-size: 14px;
     color: #ccc;
 }
-.headerContainer, .body, .serviceSection, .portfolioContainer, .reviewsSection {
+.headerContainer, .body, .serviceSection, .portfolioContainer, .reviewsSection, .contactSection {
     overflow: hidden;
 }
 .portfolioContainer .linkOff a{
