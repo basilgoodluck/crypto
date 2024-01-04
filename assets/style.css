@@ -78,6 +78,10 @@ body{
 .headerContainer, .body, .serviceSection, .portfolioContainer, .reviewsSection, .contactSection, .contactContainer{
     overflow: hidden;
 }
+
+.portfolioContainer{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('/assets/images/degen-portfolio.png');
+}
 .portfolioContainer .linkOff a{
     font-size: 1rem;
     font-weight: 300;
