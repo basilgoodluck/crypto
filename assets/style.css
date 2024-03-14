@@ -13,143 +13,95 @@ body{
     font-family: 'Roboto', sans-serif;   
     overflow-x: hidden;
 }
-.headerContainer nav #navIcon{
-    color: #fff;
-    background-color: #fff;
-}
-.headerContainer nav #navIcon span{
-    border-radius: inherit;
-}
-.body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/images/working-man.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow-x: hidden; 
-    width: 100%;
-}
-.home{
-    height: 100vh;
+.main-container{
+    overflow-x: hidden;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-.home .homeGt h1{
-    font-weight: 900;
-    color: #ccc;
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 30px #ee4;
 }
-.home .homeGt p{
-    color: #ccc;
+.header-container .logo{
+    width: 150px;
 }
-.aboutBlurSection{
-    background-color:rgba(0, 0, 0, .6);
-    border-radius: 20px;
-    text-align: center;
-     /* backdrop-filter: blur(8px); */
-    /* filter: blur(10px);/* */
-    box-shadow: 0 0 30px rgba(0, 0, 78, 0.4);
-    /* margin-top: 20vh; */
-    
+.header-container .logo img{
+    width: 100%;
 }
-.aboutBlurSection h1{
-    font-weight: 900;
-    color: #ccc;
-    z-index: 484844;
-}
-.attributeSection .iconContainer i{
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 78, 0.4);
-    background-color: #780551;
+.header-container .nav-menu p{
     display: inline-block;
+    padding: 0.5rem 1rem;
 }
-.serviceSection .container > h1, .contactSection > h1{
-    font-weight: 900;
-    z-index: 484844;
-    text-align: center;
+.header-container .nav-menu p a{
+    color: #888;
+    text-decoration: none;
+    transition: .78s ease;
+    text-shadow: 0 0 30px #c9c;
 }
-.serviceSection .serviceBody h1{
-    font-size: 16px;
-    padding-top: calc(10px + 0.25vmin);
-    color: #ccc;
+.header-container .nav-menu p:hover a{
+    color: #333;
 }
-.serviceSection .serviceBody p{
-    font-size: 14px;
-    color: #ccc;
+.header-container .get-start p{
+    padding: 0.5rem 1rem;
+    background-color: #091a66;
+    border-radius: 5px;
+    box-shadow: 0 0 30px #ccc;
 }
-.headerContainer, .body, .serviceSection, .portfolioContainer, .reviewsSection, .contactSection, .contactContainer{
-    overflow: hidden;
-}
-
-.portfolioContainer{
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url('/assets/images/degen-portfolio.png');
-}
-.portfolioContainer .linkOff a{
-    font-size: 1rem;
-    font-weight: 300;
+.header-container .get-start p a{
+    color: #fff;
     text-decoration: none;
 }
-.portfolioContainer .linkOff a p{
-    background-color: #780551;
-    display: inline-block;
-    padding: 10px;
-
-}
-.portfolioContainer > h1{
-    font-weight: 900;
-    z-index: 484844;
-    text-align: center;
-}
-.reviewsSection > h1{
-    font-weight: 900;
-    z-index: 484844;
-    text-align: center;
-}
-.carousel-item .gridItem{
-    /* display: grid;
-    place-items: center;
-    place-content: center;
+.home-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center; */
-    gap: 20px;
+    background-color: #091a66;
+}
+.home-container .home-text{
+    display: grid;
+    gap: 10px;
     color: #fff;
 }
-.carousel-item .gridItem img{
-    margin: 0 auto;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.home-container .home-text h4{
+    font-size: .8rem;
+    font-weight: 300;
+    color: red;
 }
-.contactSection > h1{
-    font-weight: 900;
-    z-index: 484844;
-    text-align: center;
+.home-container .home-text h1{
+    font-size: 2.5rem;
+    color: #eee;
 }
-.contactSection a{
-    text-decoration: none;
-    color: blue;
-}
-.contactSection .p{
+.home-container .home-text h1 span{
     color: #ccc;
 }
-@media screen and (max-width: 768px){
-    body .headerContainer #headerCont
-    .attributeSection .iconContainer h4{
-        font-size: 14px;
-    }
-    .attributeSection .iconContainer p{
-        font-size: 12px;
-    }
-    .aboutContainer{
-        min-height: 100vh;
-    }
-    .portfolioContainer .linkOff a{
-        font-size: 12px;
-    }
-    .portfolioContainer .linkOff a p{
-        padding: 3px;
-        display: inline;
-    }
-    #carouselExampleControls #carousel-control-next{
-        font-size: 10px;
-    }
+.home-container .home-text p{
+    font-size: 2rem;
+    font-weight: 100;
+    color: #ccc;
+}
+.home-container .home-text p a{
+    color: rgb(218, 163, 13);
+}
+.home-container .home-img img{
+    width: 100%;
+}
+.trust-container h1{
+    color: #888;    
+    text-align: center;
+}
+.trust-container h1 span{
+    color: #091a66;
+    font-weight: 900;
+}
+.trust-container .trust-company{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
