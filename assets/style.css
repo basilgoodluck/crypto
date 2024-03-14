@@ -20,6 +20,8 @@ body{
     justify-content: center;
 }
 .header-container{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -128,13 +130,15 @@ body{
     font-size: 3rem;
 }
 .num-clients{
-    background: linear-gradient(rgba(5, 4, 17, 0.966), rgb(15, 9, 99));
+    /* background: linear-gradient(rgba(5, 4, 17, 0.966), rgb(15, 9, 99));
+     */
+     background-color: #f9f9f9;
     width: 100%;
     border: 2px solid #fff;
     padding: 7% 5%;
 }
 .num-items h4, .num-items p{
-    color: #fff;
+    color: #091a66;
 }
 .trust-container {
     width: 100%;
@@ -158,4 +162,33 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+}
+.service-container{
+    padding: 3% 0;
+    /* background: linear-gradient(r); */
+    background-image: url('/assets/images/network.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+.service-container h1{
+    padding: 3% 0;
+}
+.service-container .service-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+.service-container .service-content .service-item{
+    padding: 7% 5%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
