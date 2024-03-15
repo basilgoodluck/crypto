@@ -6,7 +6,7 @@
         display: flex;
     }
     .home-container{
-        padding: 5% ;
+        padding: 5%;
     }
     .home-container .home-text{
         gap: 20px;
@@ -19,12 +19,15 @@
     }
     .unmatched-container .unmatched-content h1{
         font-size: 1.5rem;
+        text-align: left;
     }
     .unmatched-container .unmatched-content > p{
         font-size: .8rem;
+        text-align: left;
     }
     .unmatched-content .unmatched-items{
         grid-template-columns: auto auto;
+        text-align: left;
     }
     .trust-container{
         flex-direction: column;
