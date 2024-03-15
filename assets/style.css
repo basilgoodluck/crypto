@@ -132,9 +132,10 @@ body{
     font-size: 3rem;
 }
 .trust-container {
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     padding: 3% 0;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +150,7 @@ body{
     font-weight: 900;
 }
 .trust-container .trust-company{
-    width: 100%;
+    /* width: 80%; */
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
@@ -235,4 +236,99 @@ body{
 }
 .get-featured-container h1 a{
     color: #d97d28;
+}
+.influencer-container{
+    padding: 3% 0;
+}
+.influencer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.influencer-content .influencer-text{
+    display: grid;
+    gap: 10px;
+    padding: 0 10% 0 0;
+    flex-basis: 30%;
+}
+.influencer-content .influencer-text h4{
+    color: #888;
+    font-size: 1.2rem;
+}
+.influencer-content .influencer-text h1{
+    color: #493740;
+}
+.influencer-content .influencer-text h1 a{
+    color: #d97d28;
+}
+.influencer-content .influencer-img{
+    flex-basis: 30%;
+}
+.influencer-content .influencer-img img{
+    width: 100%;
+}
+.community-container h1{
+    padding: 3% 0;
+    
+}
+.footer-container{
+    background-color: #091a66;
+    width: 100%;
+    padding: 3%;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.footer-container .footer-content .about-footer{
+    display: grid;
+    gap: 10px;
+}
+.footer-container .footer-content .about-footer p img{
+    width: 200px;
+}
+.footer-container .footer-content .marketing-service{
+    display: grid;
+    gap: 10px;
+}
+.footer-container .footer-content .marketing-service p {
+    color: #aaa;
+    transition: .89s ease;
+}
+.footer-container .footer-content .marketing-service p:hover{
+    color: #eee;
+}
+.footer-container .footer-content .site-map{
+    display: grid;
+    gap: 10px;
+}
+.footer-container .footer-content .site-map p a{
+    color: #aaa;
+    transition: .89s ease;
+    text-decoration: none;
+}
+.footer-container .footer-content .site-map p a:hover{
+    color: #eee;
+}
+.footer-content .footer-contact{
+    flex-basis: 30%;
+}
+.footer-content .footer-contact form{
+    display: grid;
+    gap: 10px;
+}
+.footer-content .footer-contact form input{
+    background-color: transparent;
+    border-bottom: 2px solid #d97d28;
+    color: #ccc;
+    font-size: 1rem;
+    padding: 2% 0;
+}
+.footer-content .footer-contact form input[type='submit']{
+    background-color: #d97d28;
+    cursor: pointer;
 }
