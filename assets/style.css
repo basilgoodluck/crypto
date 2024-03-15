@@ -272,17 +272,62 @@ body{
 .influencer-content .influencer-img img{
     width: 100%;
 }
-.community-container h1{
-    padding: 3% 0;
-
-}
 .review-container{
     width: 100%;
-    background-image: url('/assets/images/revolve-tech.jpg');
+    background-image: url('/assets/images/people.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.review-container h1{
+    color: #ccc;
+    text-shadow: #ddd;
+}
+.review-container h1 span{
+    color: #d97d28;
+    font-weight: 900;
+}
+.review-container .review-content{
+    position: relative;
+    width: 80%;
+    padding: 3%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review-content .nav-slide{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    left: 46%;
+    right: 46%;
+    align-items: center;
+}
+.review-content .nav-slide .nav-slide-btn{
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .89s ease;
+    cursor: pointer;
+}
+.review-content .nav-slide .nav-slide-btn:hover, .review-content .nav-slide .nav-slide-btn.active{
+    background-color: #eee;
+}
+.review-container .review-content .review-text{
+    /* width: 50%; */
+    padding: 2%;
 }
 .footer-container{
     background-color: #091a66;
@@ -347,4 +392,39 @@ body{
 .footer-content .footer-contact form input[type='submit']{
     background-color: #d97d28;
     cursor: pointer;
+}
+.footer-container .rights-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0 0;
+}
+.footer-container .rights-container .social-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    margin: 0 auto;
+}
+.footer-container .rights-container .social-links a{
+    display: block;
+    color: #fff;
+    background-color: #d97d28;
+    padding: 10%;
+    border-radius: 50%;
+    transition: .89s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.footer-container .rights-container .social-links a:hover i{
+    color: #091a66;
+    scale: 2;
+}
+.footer-container .rights-container > p{
+    padding: 1% 0 0;
+    color: #aaa;
 }
