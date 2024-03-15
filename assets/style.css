@@ -107,12 +107,14 @@ body{
     color: #888;
 }
 .unmatched-container .unmatched-content h1 span{
-    color: #091a66;
+    color: #d97d28;
     font-weight: 900;
 }
 .unmatched-container .unmatched-content > p{
     text-align: center;
-    color: #d97d28;
+    color: #888;
+    width: 80%;
+    margin: 0 auto;
 }
 .unmatched-content .unmatched-items{
     display: grid;
@@ -128,7 +130,7 @@ body{
     gap: 10px;
 }
 .unmatched-content .unmatched-items .unmatched-item p i{
-    color: #091a66;
+    color: #d97d28;
     font-size: 3rem;
 }
 .trust-container {
@@ -171,7 +173,8 @@ body{
     text-shadow: 0 0 10px #091a66;
 }
 .service-container h1 span{
-    color: #091a66;
+    color: #d97d28;
+    font-weight: 900;
 }
 .service-container .service-content{
     display: grid;
@@ -271,7 +274,15 @@ body{
 }
 .community-container h1{
     padding: 3% 0;
-    
+
+}
+.review-container{
+    width: 100%;
+    background-image: url('/assets/images/revolve-tech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3%;
 }
 .footer-container{
     background-color: #091a66;
@@ -287,6 +298,11 @@ body{
 .footer-container .footer-content .about-footer{
     display: grid;
     gap: 10px;
+}
+.footer-container .footer-content .about-footer p a{
+    color: #aaa;
+    text-decoration: none;
+
 }
 .footer-container .footer-content .about-footer p img{
     width: 200px;
