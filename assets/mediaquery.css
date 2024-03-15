@@ -28,6 +28,7 @@
     .unmatched-content .unmatched-items{
         grid-template-columns: auto auto;
         text-align: left;
+        gap: 20px;
     }
     .trust-container{
         flex-direction: column;
