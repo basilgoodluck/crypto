@@ -23,15 +23,12 @@
         font-size: 1.5rem;
         width: 80%;
         margin: 0 auto;
-        text-align: left;
     }
     .unmatched-container .unmatched-content > p{
         font-size: .8rem;
-        text-align: left;
     }
     .unmatched-content .unmatched-items{
-        grid-template-columns: auto auto;
-        text-align: left;
+        grid-template-columns: auto;
         gap: 20px;
     }
     .trust-container{
