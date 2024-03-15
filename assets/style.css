@@ -157,6 +157,9 @@ body{
     grid-template-columns: auto auto auto;
     gap: 20px;
 }
+.trust-container .trust-company img{
+    width: 100%;
+}
 .service-container{
     padding: 3% 0;
     /* background: linear-gradient(r); */
@@ -428,8 +431,42 @@ body{
     padding: 1% 0 0;
     color: #aaa;
 }
+.mobile-nav-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
 
-.mobile-nav, #mobile-nav-btn{
+}
+.mobile-nav-btn div{
+    display: block;
+    width: 100%;
+    background-color: #493740;
+    height: 5px;
+    border-radius: 5px;
+}
+.mobile-nav-btn div:nth-child(2){
+    width: 70%;
+    align-self: flex-end;
+}
+.mobile-nav-btn.active{
+    justify-content: center;
+    height: 30px;
+}
+.mobile-nav-btn.active div{
+    transform: rotate(105deg);
+}
+.mobile-nav-btn.active div:nth-child(2){
+    transform: rotate(-135deg);
+    width: 100%;
+}
+.mobile-nav-btn.active div:nth-child(3){
+    display: none;
+}
+.mobile-nav, .mobile-nav-btn{
     display: none;
 }
 
