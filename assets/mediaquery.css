@@ -7,7 +7,7 @@
     }
     .home-container{
         padding: 5%;
-        height: 100vh;
+        height: 80vh;
         flex-direction: column;
     }
     .home-container .home-text{
@@ -17,7 +17,7 @@
         font-size: .8rem;
     }
     .home-container .home-img{
-        /* display: none; */
+        display: none;
     }
     .unmatched-container .unmatched-content h1{
         font-size: 1.5rem;
