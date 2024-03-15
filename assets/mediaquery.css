@@ -8,7 +8,7 @@
     .home-container{
         padding: 5%;
         height: 100vh;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .home-container .home-text{
         gap: 20px;
