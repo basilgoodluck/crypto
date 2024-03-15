@@ -6,7 +6,7 @@
         display: flex;
     }
     .home-container{
-        padding: 5% 0 ;
+        padding: 5% ;
     }
     .home-container .home-text{
         gap: 20px;
