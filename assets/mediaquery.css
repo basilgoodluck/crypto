@@ -1,6 +1,6 @@
 @media screen and (max-width: 400px) {
     .home-container{
-        padding: 25% 2%;
+        padding: 25% 5%;
     }
     .home-container .home-text h4{
         font-size: .8rem;
@@ -48,8 +48,9 @@
         display: flex;
     }
     .home-container{
-        padding: 25% 1%;
+        padding: 25% 5%;
         flex-direction: column;
+        align-items: flex-start;
     }
     .home-container .home-text{
         row-gap: 20px;
@@ -134,5 +135,18 @@
     }
     .footer-content .footer-contact{
         width: 100%;
+    }
+    .mobile-nav{
+        height: 80vh;
+        z-index: 73737;
+        background-color: rgb(12, 12, 54);
+        display: block;
+        position: absolute;
+        width: 80%;
+        left: 10%;
+        right: 10%;
+        top: 2%;
+        box-shadow: 0 0 50px #eee;
+        color: #eee;
     }
 }
