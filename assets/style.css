@@ -256,8 +256,7 @@ body{
 .influencer-content .influencer-text{
     display: grid;
     gap: 10px;
-    padding: 0 10% 0 0;
-    flex-basis: 30%;
+    text-align: center;
 }
 .influencer-content .influencer-text h4{
     color: #888;
@@ -271,6 +270,7 @@ body{
 }
 .influencer-content .influencer-img{
     flex-basis: 30%;
+    display: none;
 }
 .influencer-content .influencer-img img{
     width: 100%;
