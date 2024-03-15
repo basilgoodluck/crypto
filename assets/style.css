@@ -428,3 +428,8 @@ body{
     padding: 1% 0 0;
     color: #aaa;
 }
+
+.mobile-nav, #mobile-nav-btn{
+    display: none;
+}
+
