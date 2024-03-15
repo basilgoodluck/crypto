@@ -1,3 +1,45 @@
+@media screen and (max-width: 400px) {
+    .home-container{
+        padding: 25% 2%;
+    }
+    .home-container .home-text h4{
+        font-size: .8rem;
+    }
+    .home-container .home-text h1{
+        font-size: 1.2rem;
+    }
+    .home-container .home-text p{
+        font-size: 1.2rem;
+    }
+    .home-container .home-text p a{
+        font-weight: 400;
+    }
+    .unmatched-container .unmatched-content > h1{
+        font-size: .8rem;
+        width: 60%;
+    }
+    .unmatched-container .unmatched-content > p{
+        font-size: .8rem;
+    }
+    .unmatched-content .unmatched-items{
+        gap: 15px;
+    }
+    .trust-container .trust-company{
+        gap: 8px;
+    }
+    .service-container h1{
+        font-size: 1.2rem;
+    }
+    .get-featured-container h1{
+        font-size: 1.2rem;
+    }
+    .get-featured-content .get-featured-item p{
+        font-size: .8rem;
+    }
+    .influencer-content .influencer-text h1{
+        font-size: 1.2rem;
+    }
+}
 @media screen and (max-width: 768px) {
     .header-container .nav-menu, .header-container .get-start{
         display: none;
@@ -6,15 +48,14 @@
         display: flex;
     }
     .home-container{
-        padding: 5%;
-        height: 80vh;
+        padding: 25% 1%;
         flex-direction: column;
     }
     .home-container .home-text{
         row-gap: 20px;
     }
     .home-container .home-text h4{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .home-container .home-text h1{
         font-size: 1.5rem;
@@ -30,7 +71,7 @@
     }
     .unmatched-container .unmatched-content h1{
         font-size: 1.5rem;
-        width: 80%;
+        width: 60%;
         margin: 0 auto;
     }
     .unmatched-container .unmatched-content > p{
@@ -56,7 +97,9 @@
         margin: 0 auto;
     }
     .service-container .service-content{
-        grid-template-columns: auto;
+        grid-template-columns: auto auto auto auto auto auto;
+        width: 2000px;
+        overflow-x: scroll;
     }
     .get-featured-container h1{
         font-size: 1.5rem;
@@ -67,10 +110,13 @@
         flex-direction: column;
     }
     .get-featured-content .get-featured-item p{
-        font-size: 1rem;
+        font-size: .8rem;
     }
     .influencer-content{
         flex-direction: column-reverse;
+    }
+    .influencer-content .influencer-text{
+        width: 100%;
     }
     .influencer-content .influencer-text h1{
         font-size: 1.5rem;
@@ -78,11 +124,15 @@
     .review-container{
         flex-direction: column;
     }
-    .review-container .review-content{
-        padding: 2%;
+    .review-container .review-content .review-text p{
+        font-size: 1.2rem;
     }
     .footer-content{
-        display: grid;
-        gap: 20px;
+        border: 2px solid green;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-content .footer-contact{
+        width: 100%;
     }
 }
