@@ -16,4 +16,5 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 function toggleNav () {
     navBar.classList.toggle('active')
+    mobileCon.classList.toggle('active')
 }

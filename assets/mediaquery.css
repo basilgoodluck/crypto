@@ -140,13 +140,17 @@
         height: 80vh;
         z-index: 73737;
         background-color: rgb(12, 12, 54);
-        display: block;
         position: absolute;
         width: 80%;
-        left: 10%;
-        right: 10%;
+        left: -100%;
+        transition: .33s ease;
+        display: block;
+        right: 0;
         top: 2%;
         box-shadow: 0 0 50px #eee;
         color: #eee;
+    }
+    .mobile-nav.active{
+        left: 10%;
     }
 }
