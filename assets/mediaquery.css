@@ -11,10 +11,19 @@
         flex-direction: column;
     }
     .home-container .home-text{
-        gap: 20px;
+        row-gap: 20px;
     }
     .home-container .home-text h4{
         font-size: .8rem;
+    }
+    .home-container .home-text h1{
+        font-size: 1.5rem;
+    }
+    .home-container .home-text p{
+        font-size: 1.5rem;
+    }
+    .home-container .home-text p a{
+        font-weight: 400;
     }
     .home-container .home-img{
         display: none;
@@ -41,12 +50,17 @@
         width: 80%;
         margin: 0 auto;
     }
+    .service-container h1{
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0 auto;
+    }
     .service-container .service-content{
         grid-template-columns: auto;
     }
     .get-featured-container h1{
         font-size: 1.5rem;
-        width: 50%;
+        width: 70%;
         margin: 0 auto;
     }
     .get-featured-content{
@@ -58,6 +72,9 @@
     .influencer-content{
         flex-direction: column-reverse;
     }
+    .influencer-content .influencer-text h1{
+        font-size: 1.5rem;
+    }
     .review-container{
         flex-direction: column;
     }
@@ -65,6 +82,7 @@
         padding: 2%;
     }
     .footer-content{
-        flex-direction: column;
+        display: grid;
+        gap: 20px;
     }
 }
