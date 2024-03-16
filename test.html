@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clone Nav Menu to Mobile Container</title>
+<style>
+    /* Style for desktop navigation */
+    .desktop-nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+    }
+    
+    /* Style for mobile navigation */
+    .mobile-nav {
+        display: none;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+    }
+</style>
+</head>
+<body>
+<!-- Desktop Navigation -->
+<div class="desktop-nav">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+<!-- Mobile Navigation Container -->
+<div class="mobile-container">
+    <!-- Mobile Navigation will be cloned here -->
+</div>
+
+<script>
+    // Function to clone desktop navigation and append it to mobile container
+    function cloneNavToMobile() {
+        const desktopNav = document.querySelector('.desktop-nav');
+        const mobileContainer = document.querySelector('.mobile-container');
+        
+        // Clone the desktop navigation
+        const clonedNav = desktopNav.cloneNode(true);
+        
+        // Remove IDs to prevent duplicate IDs in the document
+        clonedNav.removeAttribute('id');
+        clonedNav.querySelectorAll('[id]').forEach(el => el.removeAttribute('id'));
+        
+        // Add a class to the cloned navigation for mobile styling
+        clonedNav.classList.add('mobile-nav');
+        
+        // Append the cloned navigation to the mobile container
+        mobileContainer.appendChild(clonedNav);
+        
+        // Show the mobile navigation
+        clonedNav.style.display = 'block';
+    }
+    
+    // Call the function to clone navigation when the page loads
+    window.onload = cloneNavToMobile;
+</script>
+</body>
+</html>

@@ -3,18 +3,29 @@ let mobileCon = document.querySelector('.mobile-nav')
 let menu = document.querySelector('.nav-menu')
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    const mobileCon = document.querySelector('.mobile-nav');
-    const menu = document.getElementById('nav-menu');
+const gra = menu.cloneNode(true)
 
-    const clonedNavMenu = menu.cloneNode(true);
-    clonedNavMenu.id = 'clonee';
+gra.id = 'gra'
 
-    document.mobileCon.appendChild(clonedNavMenu);
+mobileCon.appendChild(gra)
+console.log(gra)
 
-    console.log(mobileCon);
-});
+
 function toggleNav () {
     navBar.classList.toggle('active')
     mobileCon.classList.toggle('active')
+
 }
+
+
+const filmScreenp = document.getElementById('filmScreenp').innerHTML
+const filmScreenh = document.getElementById('filmScreenh').innerHTML
+
+const reviewArr = ['They are the best', 'We love them', 'Great are they']
+function slideShow () {
+    
+}
+filmScreenh == reviewArr[2]
+console.log(filmScreenh)
+
+

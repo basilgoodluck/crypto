@@ -162,8 +162,8 @@ body{
 }
 .service-container{
     padding: 3% 0;
-    /* background: linear-gradient(r); */
-    background-image: url('/assets/images/working-man.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/assets/images/working-man.jpg');
+    /* background-image: url('/assets/images/working-man.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -171,7 +171,7 @@ body{
 }
 .service-container > h1{
     padding: 3% 0 1%;
-    color: #091a66;
+    color: #ccc;
     text-shadow: 0 0 10px #091a66;
     width: 80%;
     margin: 0 auto;
@@ -499,5 +499,19 @@ body{
 }
 .mobile-nav, .mobile-nav-btn{
     display: none;
+}
+.mobile-nav .namenu{
+    height: 100%;
+    display: flex;
+    color: #091a66;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.mobile-nav .namenu p a{
+    padding: 0 0 0 10px;
+    color: #091a66;
+    text-decoration: none;
+    font-size: 1.2rem;
 }
 

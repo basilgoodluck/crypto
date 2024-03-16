@@ -98,9 +98,9 @@
         margin: 0 auto;
     }
     .service-container .service-content{
-        grid-template-columns: auto auto auto auto auto auto;
-        width: 2000px;
-        overflow-x: scroll;
+        grid-template-columns: auto auto;
+        /* width: 200%; */
+        padding: 0 10%;
     }
     .get-featured-container h1{
         font-size: 1.5rem;
@@ -137,22 +137,24 @@
         width: 100%;
     }
     .mobile-nav{
-        height: 80vh;
+        height: 100vh;
         z-index: 73737;
         /* background-color: rgb(12, 12, 54); */
         background-color: #fff;
         position: absolute;
-        width: 80%;
+        width: 50%;
         left: -100%;
         transition: .33s ease;
         display: block;
         right: 0;
-        top: 40px;
-        
+        top: 0;
+        overflow-y: hidden;
         color: #eee;
     }
     .mobile-nav.active{
-        left: 10%;
-        box-shadow: 0 0 1000px #eee;
+        left: 0;
+    }
+    body.active{
+        height: 100vh;
     }
 }
