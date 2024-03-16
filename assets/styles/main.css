@@ -324,7 +324,7 @@ body{
     font-size: 1.5rem;
 }
 .review-content .nav-slide{
-    width: 15%;
+    width: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
