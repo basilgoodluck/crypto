@@ -112,9 +112,7 @@ body{
 .crypto-crypto-content .crypto-crypto-img img{
     width: 100%;
 }
-.crypto-service-content{
-    /* background-color: #091a66; */
-}
+
 .crypto-service-grid{
     width: 80%;
     margin: 0 auto;
@@ -142,4 +140,15 @@ body{
 }
 .crypto-service-grid .crypto-service-item ul li i{
     color: #d97d28;
+}
+.nft-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #091a66;
+}
+.nft-container h1{
+    font-size: 3rem;
+    
 }
