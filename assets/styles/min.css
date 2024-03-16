@@ -19,8 +19,96 @@ body{
     
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/images/service-bg.jpg');
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
+    padding: 0 0 5%;
+    /* overflow: hidden; */
+}
+.crypto-hh-wrapper .crypto-header-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+.crypto-header-content .logo{
+    width: 150px;
+}
+.crypto-header-content .logo img{
+    width: 100%;
+}
+.crypto-header-content .crypto-nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.crypto-header-content .crypto-nav-menu p{
+    position: relative;
+    padding: 0.5rem 0;
+}
+
+.crypto-header-content .crypto-nav-menu p a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.crypto-header-content .crypto-nav-menu p::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #d97d28;
+}
+.crypto-hh-wrapper .crypto-home-content{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.crypto-hh-wrapper .crypto-home-content h1{
+    font-size: 2.5rem;
+}
+.crypto-hh-wrapper .crypto-home-content p{
+    font-size: 1rem;
+}
+.crypto-hh-wrapper .crypto-home-content p a{
+    color: #fff;
+    background-color: #d97d28;
+    padding: 1rem;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.crypto-crypto-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.crypto-crypto-content .crypto-crypto-text {
+    display: grid;
+    gap: 20px;
+}
+.crypto-crypto-content .crypto-crypto-text h1{
+    font-size: 3rem;
+    color: #fff;
+}
+.crypto-crypto-content .crypto-crypto-text h4{
+    font-size: 1.5rem;
+}
+.crypto-crypto-content .crypto-crypto-text p{
+    font-size: 1rem;
+}
+.crypto-crypto-content .crypto-crypto-img img{
+    width: 100%;
 }
