@@ -131,4 +131,15 @@ body{
     padding: 20% 10%;
     border-radius: 10px;
     box-shadow: 0 0 30px #eee;
+    color: #fff;
+}
+.crypto-service-grid .crypto-service-item ul{
+    list-style-type: none;
+    padding: 3% 0;
+}
+.crypto-service-grid .crypto-service-item ul li{
+    padding: 10px 0;
+}
+.crypto-service-grid .crypto-service-item ul li i{
+    color: #d97d28;
 }
