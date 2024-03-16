@@ -60,6 +60,10 @@ body{
     color: #fff;
     text-decoration: none;
 }
+.header-container .get-start p i{
+    color: #fff;
+    font-size: 1.5rem;
+}
 .home-container{
     width: 100%;
     display: flex;
