@@ -129,20 +129,29 @@
         font-size: 1.2rem;
     }
     .footer-content{
-        border: 2px solid green;
         flex-direction: column;
         align-items: flex-start;
     }
+    .footer-container .footer-content .about-footer{
+        padding: 3% 0;
+    }
+    .footer-container .footer-content .marketing-service{
+        padding: 3% 0;
+    }
+    .footer-container .footer-content .site-map{
+        padding: 3% 0;
+    }
     .footer-content .footer-contact{
         width: 100%;
+        padding: 3% 0 ;
     }
     .mobile-nav{
         height: 100vh;
         z-index: 73737;
         /* background-color: rgb(12, 12, 54); */
         background-color: #fff;
-        position: absolute;
-        width: 50%;
+        position: fixed;
+        width: 60%;
         left: -100%;
         transition: .33s ease;
         display: block;
@@ -153,8 +162,5 @@
     }
     .mobile-nav.active{
         left: 0;
-    }
-    body.active{
-        height: 100vh;
     }
 }

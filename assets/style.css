@@ -311,7 +311,8 @@ body{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
     align-items: center;
 }
 .review-container .review-content p{
@@ -323,17 +324,13 @@ body{
     font-size: 1.5rem;
 }
 .review-content .nav-slide{
-    position: absolute;
-    bottom: 100%;
-    top: 97%;
+    width: 15%;
     display: flex;
     justify-content: space-between;
-    left: 46%;
-    right: 46%;
     align-items: center;
 }
 .review-content .nav-slide .nav-slide-btn{
-    background-color: #ccc;
+    background-color: #888;
     padding: 10px;
     border-radius: 50%;
     transition: .89s ease;
@@ -349,7 +346,7 @@ body{
 .footer-container{
     background-color: #493740;
     width: 100%;
-    padding: 3%;
+    padding: 3% 3% 0;
 }
 .footer-content{
     width: 100%;
