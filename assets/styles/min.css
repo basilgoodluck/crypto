@@ -112,3 +112,23 @@ body{
 .crypto-crypto-content .crypto-crypto-img img{
     width: 100%;
 }
+.crypto-service-content{
+    /* background-color: #091a66; */
+}
+.crypto-service-grid{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.crypto-service-grid .crypto-service-item{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/assets/images/working-man.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20% 10%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #eee;
+}
