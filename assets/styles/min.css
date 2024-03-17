@@ -20,63 +20,20 @@ body{
     
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/images/service-bg.jpg');
     background-size: cover;
-    /* height: 100vh; */
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
-    padding: 0 0 5%;z-index: 333939393;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     /* overflow: hidden; */
-}
-.crypto-hh-wrapper .crypto-header-content{
-    position: sticky;
-    top: 0;
-    
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2% 0;
-}
-.crypto-header-content .logo{
-    width: 150px;
-}
-.crypto-header-content .logo img{
-    width: 100%;
-}
-.crypto-header-content .crypto-nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
-}
-.crypto-header-content .crypto-nav-menu p{
-    position: relative;
-    padding: 0.5rem 0;
-}
-
-.crypto-header-content .crypto-nav-menu p a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
-}
-.crypto-header-content .crypto-nav-menu p::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    background-color: #d97d28;
 }
 .crypto-hh-wrapper .crypto-home-content{
     width: 80%;
     margin: 0 auto;
     display: grid;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
-    text-align: center;
 }
 .crypto-hh-wrapper .crypto-home-content h1{
     font-size: 2.5rem;
@@ -154,7 +111,7 @@ body{
     width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto ;
     gap: 20px;
 }
 .crypto-faq-content .crypto-grid-items{

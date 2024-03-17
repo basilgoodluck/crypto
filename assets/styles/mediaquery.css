@@ -145,9 +145,6 @@
         width: 100%;
         padding: 3% 0 ;
     }
-    .crypto-header-content .crypto-nav-menu{
-        display: none;
-    }
     .crypto-hh-wrapper .crypto-home-content h1{
         font-size: 2rem;
     }
@@ -164,7 +161,16 @@
         display: none;
     }
     .crypto-service-grid{
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
+    }
+    .crypto-service-grid .crypto-service-item{
+        padding: 5%;
+    }
+    .crypto-service-grid .crypto-service-item ul{
+        padding: 1% 0;
+    }
+    .crypto-service-grid .crypto-service-item ul li{
+        font-size: .8rem;
     }
     .crypto-faq-content{
         grid-template-columns: auto;
