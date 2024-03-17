@@ -527,14 +527,14 @@ body{
     font-size: 1.5rem;
 }
 .mobile-nav .namenu p a{
-    padding: 0 0 0 10px;
+    padding: 0 0 0 20px;
     color: #091a66;
     text-decoration: none;
     font-size: 1.2rem;
 }
 #telegram-mobile{
     background-color: #d97d28;
-    padding: 3% 20% 3% 10px;
+    padding: 3% 20% 3% 20px;
     border-radius: 0 5px 5px 0;
 }
 
