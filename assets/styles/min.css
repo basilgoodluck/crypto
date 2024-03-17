@@ -167,6 +167,13 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.crypto-faq-content .crypto-grid-items .crypto-answer {
+    /* max-height: 40px; */
+    height: 0;
+}
+.crypto-faq-content .crypto-grid-items .crypto-answer p{
+    display: none;
+}
 .nft-container{
     display: flex;
     align-items: center;
