@@ -163,7 +163,9 @@
     .crypto-service-grid{
         grid-template-columns: auto;
     }
-    
+    .crypto-faq-content{
+        grid-template-columns: auto;
+    }
     .mobile-nav{
         height: 100vh;
         z-index: 73737;
