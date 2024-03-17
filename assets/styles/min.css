@@ -168,11 +168,12 @@ body{
     justify-content: space-between;
 }
 .crypto-faq-content .crypto-grid-items .crypto-answer {
-    /* max-height: 40px; */
     height: 0;
+    overflow: hidden;
 }
-.crypto-faq-content .crypto-grid-items .crypto-answer p{
-    display: none;
+.crypto-faq-content .crypto-grid-items .crypto-answer.active{
+    height: 100%;
+    max-height: 500px;
 }
 .nft-container{
     display: flex;
