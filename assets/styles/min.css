@@ -95,6 +95,7 @@ body{
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    padding: 5% 0 3%;
 }
 .crypto-crypto-content .crypto-crypto-text {
     display: grid;

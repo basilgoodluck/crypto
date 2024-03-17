@@ -145,6 +145,25 @@
         width: 100%;
         padding: 3% 0 ;
     }
+    .crypto-header-content .crypto-nav-menu{
+        display: none;
+    }
+    .crypto-crypto-content .crypto-crypto-text h1{
+        font-size: 2rem;
+    }
+    .crypto-crypto-content .crypto-crypto-text h4{
+        font-size: 1.2rem;
+    }
+    .crypto-crypto-content .crypto-crypto-text p{
+        font-size: .8rem;
+    }
+    .crypto-crypto-content .crypto-crypto-img{
+        display: none;
+    }
+    .crypto-service-grid{
+        grid-template-columns: auto;
+    }
+    
     .mobile-nav{
         height: 100vh;
         z-index: 73737;
