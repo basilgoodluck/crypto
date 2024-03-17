@@ -6,6 +6,7 @@
     scroll-behavior: smooth;
     outline: 0;
     border: 0;
+    box-sizing: border-box;
     /* overflow: hidden; */
 }
 
@@ -140,6 +141,30 @@ body{
 }
 .crypto-service-grid .crypto-service-item ul li i{
     color: #d97d28;
+}
+.crypto-faq-wrapper{
+    background-color: #eee;
+    padding: 5% 0;
+}
+.crypto-faq-content{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.crypto-faq-content .crypto-grid-items{
+    background-color: #091a66;
+    padding: 2%;
+    color: #fff;
+    border-radius: 10px;
+    font-size: calc(50% + .5rem);
+}
+.crypto-faq-content .crypto-grid-items .crypto-quest{
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nft-container{
     display: flex;
