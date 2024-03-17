@@ -155,9 +155,9 @@ body{
     gap: 20px;
 }
 .crypto-faq-content .crypto-grid-items{
-    background-color: #333;
+    background-color: #d97d28;
     padding: 2%;
-    color: #fff;
+    color: #091a66;
     border-radius: 10px;
     font-size: calc(50% + .5rem);
 }
