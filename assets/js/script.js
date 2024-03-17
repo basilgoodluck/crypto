@@ -4,8 +4,7 @@ const filmP = document.querySelector('.filmP')
 const filmH = document.querySelector('.filmH')
 
 
-
-function toggleNav () {
+const toggleNav = function () {
     navBar.classList.toggle('active')
     mobileCon.classList.toggle('active')
 
