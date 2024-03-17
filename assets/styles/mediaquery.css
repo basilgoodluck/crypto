@@ -100,7 +100,7 @@
     .service-container .service-content{
         grid-template-columns: auto;
         /* width: 200%; */
-        padding: 0 10%;
+        /* padding: 0 10%; */
     }
     .get-featured-container h1{
         font-size: 1.5rem;
