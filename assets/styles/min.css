@@ -24,10 +24,13 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
-    padding: 0 0 5%;
+    padding: 0 0 5%;z-index: 333939393;
     /* overflow: hidden; */
 }
 .crypto-hh-wrapper .crypto-header-content{
+    position: sticky;
+    top: 0;
+    
     width: 80%;
     margin: 0 auto;
     display: flex;

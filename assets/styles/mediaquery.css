@@ -148,6 +148,9 @@
     .crypto-header-content .crypto-nav-menu{
         display: none;
     }
+    .crypto-hh-wrapper .crypto-home-content h1{
+        font-size: 2rem;
+    }
     .crypto-crypto-content .crypto-crypto-text h1{
         font-size: 2rem;
     }
