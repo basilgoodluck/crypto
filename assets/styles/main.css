@@ -77,7 +77,7 @@ body{
 .home-container .home-text{
     display: grid;
     flex-basis: 50%;
-    gap: 10px;
+    gap: 20px;
     color: #fff;
 }
 .home-container .home-text h4{
