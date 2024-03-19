@@ -146,19 +146,10 @@
         padding: 3% 0 ;
     }
     .crypto-hh-wrapper .crypto-home-content h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
-    .crypto-crypto-content .crypto-crypto-text h1{
-        font-size: 2rem;
-    }
-    .crypto-crypto-content .crypto-crypto-text h4{
-        font-size: 1.2rem;
-    }
-    .crypto-crypto-content .crypto-crypto-text p{
-        font-size: .8rem;
-    }
-    .crypto-crypto-content .crypto-crypto-img{
-        display: none;
+    .crypto-hh-wrapper .crypto-home-content{
+        flex-direction: column-reverse;
     }
     .crypto-service-grid{
         grid-template-columns: auto auto;

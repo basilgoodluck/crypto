@@ -18,7 +18,7 @@ body{
 }
 .crypto-hh-wrapper{
     background-color: #091a66;
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
 }
 .crypto-hh-wrapper .crypto-home-content{
@@ -45,18 +45,6 @@ body{
 .crypto-hh-wrapper .crypto-home-content p span{
     color: #ee4;
 }
-.crypto-hh-wrapper .crypto-home-content ul{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 10px;
-}
-.crypto-hh-wrapper .crypto-home-content ul li{
-    list-style: none;
-    /* display: inline-block; */
-    border-radius: 5px;
-    padding: 2%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
 .crypto-hh-wrapper .crypto-home-content p a{
     color: #333;
     background-color: #ee4;
@@ -64,6 +52,9 @@ body{
     display: inline-block;
     border-radius: 10px;
     text-decoration: none;
+}
+.crypto-hh-wrapper .crypto-home-content .crypto-home-img img{
+    width: 100%;
 }
 .crypto-service-content{
     padding: 5% 0;
