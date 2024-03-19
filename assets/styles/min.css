@@ -139,6 +139,7 @@ body{
     display: grid;
     grid-template-columns: auto ;
     gap: 20px;
+    color: #fff;
 }
 .crypto-faq-content .crypto-grid-items{
     background-color: rgba(0, 0, 0, 0.3);
@@ -148,7 +149,7 @@ body{
     font-size: calc(50% + .5rem);
 }
 .crypto-faq-content .crypto-grid-items .crypto-quest{
-    width: 93%;
+    /* width: %; */
     display: flex;
     align-items: center;
     justify-content: space-between;

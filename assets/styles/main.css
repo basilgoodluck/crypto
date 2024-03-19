@@ -64,7 +64,11 @@ body{
     font-size: 1.5rem;
 }
 .home-container{
-    width: 100%;
+    background-color: #091a66;
+}
+.home-content{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +76,7 @@ body{
 }
 .home-container .home-text{
     display: grid;
+    flex-basis: 50%;
     gap: 10px;
     color: #fff;
 }
@@ -81,20 +86,24 @@ body{
     color: rgb(218, 163, 13);
 }
 .home-container .home-text h1{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #eee;
 }
 .home-container .home-text h1 span{
-    color: #ccc;
+    color: #d97d28;
 }
 .home-container .home-text p{
     font-size: 2rem;
-    font-weight: 100;
+    /* font-weight: 100; */
     color: #ccc;
 }
 .home-container .home-text p a{
-    font-weight: 900;
-    color: #d97d28;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #000;
+    padding: .8rem;
+    border-radius: 5px;
+    background-color: #ee4;
 }
 .home-container .home-img img{
     width: 100%;
@@ -492,7 +501,7 @@ body{
 .mobile-nav-btn div{
     display: block;
     width: 100%;
-    background-color: #091a66;
+    background-color: #fff;
     height: 5px;
     border-radius: 5px;
     position: absolute;   
@@ -532,7 +541,12 @@ body{
 .mobile-nav, .mobile-nav-btn{
     display: none;
 }
+#mobile-nav{
+    background-color: #091a66;
+    box-shadow: 0 0 10px #eee;
+}
 .mobile-nav .namenu{
+    background-color: #091a66;
     height: 80%;
     display: flex;
     color: #091a66;
@@ -552,13 +566,13 @@ body{
     padding: 0 0 0 10px;
 }
 .mobile-nav .namenu .navSocial a{
-    color: #091a66;
+    color: #fff;
     font-size: 1.5rem;
     padding: 10px;
 }
 .mobile-nav .namenu p a{
     padding: 0 0 0 20px;
-    color: #091a66;
+    color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
 }
