@@ -23,14 +23,12 @@ body{
     justify-content: center;
 }
 .header-container{
-    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 2%;
     width: 100%;
     background-color: #091a66;
-    box-shadow: 0 0 30px #eee;
 }
 .header-container .logo{
     width: 150px;
@@ -43,19 +41,19 @@ body{
     padding: 0.5rem 1rem;
 }
 .header-container .nav-menu p a{
-    color: #888;
+    color: #eee;
     text-decoration: none;
     transition: .78s ease;
     text-shadow: 0 0 30px #c9c;
 }
 .header-container .nav-menu p:hover a{
-    color: #333;
+    color: #fff;
 }
 .header-container .get-start p{
     padding: 0.5rem 1rem;
-    background-color: #493740;
+    background-color: #091a66;
     border-radius: 5px;
-    box-shadow: 0 0 30px #ccc;
+    box-shadow: 0 0 10px #000;
 }
 .header-container .get-start p a{
     color: #fff;
