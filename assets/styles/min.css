@@ -18,7 +18,7 @@ body{
 }
 .crypto-hh-wrapper{
     
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/images/service-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/images/crypto-main.png');
     background-size: cover;
     height: 100vh;
     background-position: center;

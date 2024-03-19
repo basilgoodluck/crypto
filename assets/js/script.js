@@ -16,19 +16,22 @@ const toggleNav = function () {
 
 window.addEventListener('DOMContentLoaded', function () {
     let contentBox = document.querySelectorAll('.review-text')
-    let idx = 0
+    let currentIndex = 0;
+
+
+    function showContent(idx) {
+        for(var i = 0; i < contentBox.length; i++){
+            contentBox[i].classList.remove('active')
+        }
+        contentBox[idx].classList.add('active')
+    }
     function nextContent () {
-        
-        
-        contentBox[idx].classList.remove('active')
-        contentBox[idx + 1].classList.add('active') 
-        idx++
+        currentIndex = (currentIndex + 1) % contentBox.length;
+        showContent(currentIndex)
     }
     function prevContent () {
-        contentBox[idx].classList.remove('active')
-        // contentBox[idx].classList.add('active')
-        // idx--
-         
+        currentIndex = (currentIndex - 1 + contentBox.length) % contentBox.length
+        showContent(currentIndex)
     }
     // setInterval(updateContent, 1000)
     document.getElementById('prevBTN').addEventListener('click', prevContent)
