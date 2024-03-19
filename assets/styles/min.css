@@ -18,8 +18,11 @@ body{
 }
 .crypto-hh-wrapper{
     background-color: #091a66;
-    min-height: 100vh;
+    height: 100vh;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .crypto-hh-wrapper .crypto-home-content{
     width: 80%;
