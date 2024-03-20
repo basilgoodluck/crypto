@@ -286,124 +286,79 @@ body{
     color: #d97d28;
 }
 .review-container{
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/people.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.3)), url('/assets/images/service-bg.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    padding: 3%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    background-repeat: no-repeat;
+    padding: 5% 0;
+    display: grid;
+    gap: 20px;
+    position: relative;
 }
 .review-container h1{
     color: #091a66;
-    text-shadow: #ddd;
+    font-size: 2rem;
+    text-align: center;
 }
 .review-container h1 span{
     color: #d97d28;
-    font-weight: 900;
 }
 .review-container .review-content{
     position: relative;
-    width: 80%;
-    padding: 5% 0;
+    width: 50%;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column-reverse;
-    align-items: center;
-    overflow-x: hidden;
+    /* padding: 3%; */
 }
-.review-content .review-text{
-    display: none;
-    animation-timing-function: ease;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-}
-.review-content .review-text.active{
-    display: block;
-}
-@keyframes slideFromRight {
-    0%{
-        transform: translateX(20%);
-        opacity: 0;
-    }
-    50%{
-        opacity: .3;
-    }
-    100%{
-        transform: translateX(0%);
-        opacity: 1;
-    }    
-}
-@keyframes slideFromLeft {
-    0%{
-        transform: translateX(-20%);
-        opacity: 0;
-    }
-    50%{
-        opacity: .3;
-    }
-    100%{
-        transform: translateX(0%);
-        opacity: 1;
-    }    
-}
-.review-container .review-content p{
-    font-size: 2rem;
-    transition: display 3ws ease;
-    color: #fff;
-}
-.review-container .review-content h4{
-    color: #091a66;
-    font-size: 1.5rem;
-}
-.review-content .nav-slide{
-    width: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.review-content .nav-slide .nav-slide-btn{
-    background-color: #888;
-    padding: 10px;
-    border-radius: 50%;
-    transition: .89s ease;
-    cursor: pointer;
-}
-.review-content .nav-slide .nav-slide-btn:hover, .review-content .nav-slide .nav-slide-btn.active{
-    background-color: #eee;
-}
-.review-container .review-content .review-text{
-    /* width: 50%; */
-    padding: 10% 10% 4%;
-}
-.review-container .review-content .nav{
+.review-container .review-content .nav-btn{
     position: absolute;
     top: 50%;
-    transform: translateY(-50%, -50%);
-    color: #aaa;
+    transform: translateY(-50%);
 }
-.review-container .review-content .nav .fa{
-    
-    font-size: 2rem;
+.review-container .review-content .nav-btn.right{
+    right: 1%;
 }
-.review-container .review-content .nav.next-slide{
-    /* left: 0; */
-    right: 5%;
+.review-container .review-content .nav-btn.left{
+    left: 1%;
 }
-.review-container .review-content .nav.prev-slide{
-    left: 5%;
+.review-container .review-content .nav-btn .fa{
+    font-size: 1.3rem;
 }
-.review-container .review-content .nav.active{
+.review-container .dot-nav-container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(4%);
+}
+.dot-nav-container div{
+    background-color: #aaa;
+    padding: 6px;
+    border-radius: 50%;
+    display: block;
+
+}
+.dot-nav-container div.active{
+    background-color: #eee;
+}
+.review-content .slidesBox{
+    display: flex;
+    overflow-x: hidden;
     color: #fff;
+}
+.slidesBox .slide{
+    padding: 5%;
+    min-width: 100%;
+}
+.slidesBox .slide p{
+    font-size: 1.3rem;
 }
 .footer-container{
     background-color: #493740;

@@ -3,9 +3,8 @@ let mobileCon = document.querySelector('.mobile-nav')
 let filmP = document.querySelector('.filmP')
 let filmH = document.querySelector('.filmH')
 let BTNS = document.querySelectorAll('.nav-slide-btn')
-let contai = document.querySelector('#filmScreenp')
-let contjdj = document.querySelector('#filmScreenh')
-let ani = document.querySelector('.review-content .review-text')
+let slideContainer = document.querySelector('.review-content')
+let slides = document.querySelectorAll('.review-text')
 
 
 const toggleNav = function () {
@@ -14,26 +13,16 @@ const toggleNav = function () {
 
 }
 
-window.addEventListener('DOMContentLoaded', function () {
-    let contentBox = document.querySelectorAll('.review-text')
-    let currentIndex = 0;
+const firstClone = slides[0].cloneNode(true)
+const lastClone = slides[slides.length - 1].cloneNode(true)
+
+firstClone.id = 'first-clone'
+lastClone.id = 'last-clone'
+
+slideContainer.append(firstClone)
+slideContainer.prepend(lastClone)
+
+// slideContainer.style.transform = `translateX(-50%)`
+console.log(slides)
 
 
-    function showContent(idx) {
-        for(var i = 0; i < contentBox.length; i++){
-            contentBox[i].classList.remove('active')
-        }
-        contentBox[idx].classList.add('active')
-    }
-    function nextContent () {
-        currentIndex = (currentIndex + 1) % contentBox.length;
-        showContent(currentIndex)
-    }
-    function prevContent () {
-        currentIndex = (currentIndex - 1 + contentBox.length) % contentBox.length
-        showContent(currentIndex)
-    }
-    // setInterval(updateContent, 1000)
-    document.getElementById('prevBTN').addEventListener('click', prevContent)
-    document.getElementById('nextBTN').addEventListener('click', nextContent)
-})
