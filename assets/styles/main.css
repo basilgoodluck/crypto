@@ -319,6 +319,7 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 929;
     cursor: pointer;
 }
 .review-container .review-content .nav-btn.right{
