@@ -525,10 +525,10 @@ body{
 }
 .mobile-nav .namenu{
     background-color: #091a66;
-    height: 80%;
-    display: flex;
+    /* height: 80%; */
+    display: grid;
+    gap: 30px;
     color: #091a66;
-    justify-content: space-between;
     /* padding: 0 0 10%; */
     align-items: flex-start;
     flex-direction: column;
