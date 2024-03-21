@@ -3,11 +3,10 @@
 *{
     margin: 0;
     padding: 0;
-    /* scroll-behavior: smooth; */
+    scroll-behavior: smooth;
     outline: 0;
     border: 0;
     box-sizing: border-box;
-    /* overflow: hidden; */
 }
 body h1{
     font-size: 1.5rem !important;
