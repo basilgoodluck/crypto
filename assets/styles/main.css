@@ -152,7 +152,7 @@ body{
     /* width: 70%; */
     margin: 0 auto;
     padding: 3% 0;
-    /* background-color: #f9f9f9; */
+    background-color: #091a66;
     /* display: flex; */
     justify-content: center;
     align-items: center;
@@ -177,7 +177,7 @@ body{
 }
 .service-container{
     padding: 3% 0;
-    background-color: #091a66;
+    background-color: #fff;
     color: #fff;
     text-align: center;
     display: grid;
@@ -222,7 +222,7 @@ body{
 .get-featured-container{
     padding: 3% 0;
     width: 100%;
-    background-color: #08144b;
+    background-color: #091a66;
 }
 .get-featured-container h1{
     padding: 3% 0;
