@@ -71,7 +71,7 @@ const moveToPreviousSlide = ()=>{
     if(index <= 0) return
     index--
     slideBox.style.transform = `translateX(${-slideWidth * index}px)`
-    slideBox.style.transition = '.7s'
+    slideBox.style.transition = 'transform .7s ease'
 }
 navRight.addEventListener('click', ()=>{
     moveToNextSlide()

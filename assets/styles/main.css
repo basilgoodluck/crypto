@@ -215,11 +215,11 @@ body{
 }
 .service-container .service-content .service-item{
     padding: 7% 5%;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.2);
     border-radius: 16px;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
-    /* backdrop-filter: blur(5px); */
-    /* -webkit-backdrop-filter: blur(5px); */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     /* transition: .78s ease; */
     color: #fff;
     /* cursor: pointer; */
