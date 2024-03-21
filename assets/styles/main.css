@@ -75,7 +75,6 @@ body{
 }
 .home-container .home-text{
     display: grid;
-    flex-basis: 50%;
     gap: 20px;
     color: #fff;
 }
