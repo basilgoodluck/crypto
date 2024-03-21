@@ -9,6 +9,12 @@
     box-sizing: border-box;
     /* overflow: hidden; */
 }
+body h1{
+    font-size: 1.5rem !important;
+}
+body p{
+    font-size: 1rem !important;
+}
 
 body{
     position: relative;
@@ -144,11 +150,11 @@ body{
     font-size: 3rem;
 }
 .trust-container {
-    width: 70%;
+    /* width: 70%; */
     margin: 0 auto;
     padding: 3% 0;
     /* background-color: #f9f9f9; */
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
@@ -217,6 +223,8 @@ body{
     transition: .78s ease;
     color: #fff;
     cursor: pointer;
+    display: grid;
+    gap: 20px;
 }
 .get-featured-container{
     padding: 3% 0;
@@ -533,7 +541,7 @@ body{
     flex-direction: column;
 }
 .mobile-nav .namenu img{
-    width: 150px;
+    width: 120px;
 }
 .mobile-nav .namenu .navMenuPA{
     display: grid;

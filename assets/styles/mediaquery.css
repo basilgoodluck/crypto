@@ -1,3 +1,15 @@
+body h1{
+    font-size: 1.2rem !important;
+}
+body h1 a{
+    font-size: 1rem !important;
+}
+body p{
+    font-size: .8rem !important;
+}
+
+
+
 @media screen and (max-width: 400px) {
     .home-container{
         padding: 25% 5%;
@@ -41,6 +53,9 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .header-container{
+        padding: 0 4%;
+    }
     .header-container .logo{
         width: 120px;
     }
@@ -51,9 +66,13 @@
         display: flex;
     }
     .home-container{
-        padding: 25% 5%;
+        padding: 25% 0;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .home-content{
+        width: 92%;
     }
     .home-container .home-text h4{
         font-size: 1rem;
@@ -79,6 +98,7 @@
         font-size: .8rem;
     }
     .unmatched-content .unmatched-items{
+        width: 92%;
         grid-template-columns: auto;
         gap: 20px;
     }
