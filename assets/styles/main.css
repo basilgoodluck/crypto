@@ -319,6 +319,7 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 .review-container .review-content .nav-btn.right{
     right: 1%;
@@ -329,6 +330,7 @@ body{
 .review-container .review-content .nav-btn .fa{
     font-size: 1.3rem;
     color: #fff;
+    
 }
 .review-container .dot-nav-container{
     position: absolute;
