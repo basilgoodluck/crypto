@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
     outline: 0;
     border: 0;
     box-sizing: border-box;
@@ -215,14 +215,14 @@ body{
 }
 .service-container .service-content .service-item{
     padding: 7% 5%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.1);
     border-radius: 16px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    transition: .78s ease;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); */
+    /* backdrop-filter: blur(5px); */
+    /* -webkit-backdrop-filter: blur(5px); */
+    /* transition: .78s ease; */
     color: #fff;
-    cursor: pointer;
+    /* cursor: pointer; */
     display: grid;
     gap: 20px;
 }
@@ -256,7 +256,7 @@ body{
     display: grid;
     gap: 20px;
     border-radius: 20px;
-    transition: .78s ease;
+    /* transition: .78s ease; */
     cursor: pointer;
 }
 .get-featured-content .get-featured-item:hover{
