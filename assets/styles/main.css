@@ -178,25 +178,19 @@ body{
 .service-container{
     padding: 3% 0;
     background-color: #091a66;
-    /* background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/assets/images/working-man.jpg'); */
-    /* background-image: url('/assets/images/working-man.jpg'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     color: #fff;
     text-align: center;
     display: grid;
     gap: 20px;
 }
 .service-container > h1{
-    /* padding: 3% 0 1%; */
     color: #ccc;
     text-shadow: 0 0 10px #091a66;
     width: 80%;
     margin: 0 auto;
 }
 .service-container > p{
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     /* padding: 0 0 5%; */
 }
@@ -217,8 +211,8 @@ body{
     background: rgba(0, 0, 0, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
+    /* -webkit-backdrop-filter: blur(5px); */
     /* transition: .78s ease; */
     color: #fff;
     /* cursor: pointer; */
@@ -317,8 +311,8 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    /* backdrop-filter: blur(5px); */
+    /* -webkit-backdrop-filter: blur(5px); */
     /* padding: 3%; */
 }
 .review-container .review-content .nav-btn{
