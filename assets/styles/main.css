@@ -69,6 +69,10 @@ body{
 }
 .home-container{
     background-color: #091a66;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .home-content{
     width: 80%;
@@ -93,7 +97,7 @@ body{
     color: #eee;
 }
 .home-container .home-text h1 span{
-    color: #091a66;
+    color: #d97d28;
 }
 .home-container .home-text p{
     font-size: 2rem;
