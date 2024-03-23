@@ -38,7 +38,7 @@ const startSlide = ()=>{
             index = 1
         } 
         moveToNextSlide()           
-    }, 3000)
+    }, 5000)
 }
 
 slideBox.addEventListener('transitionend', ()=>{

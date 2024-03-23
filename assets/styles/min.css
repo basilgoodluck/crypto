@@ -167,3 +167,12 @@ body{
     font-size: 3rem;
     
 }
+
+.howcase-home .showcase-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.showcase-item .show-case-img img{
+    width: 100%;
+}
