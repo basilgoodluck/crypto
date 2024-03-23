@@ -190,6 +190,9 @@ body p{
     .contact-home-grid{
         grid-template-columns: auto;
     }
+    .contact-form-content .contact-form-text{
+        flex-basis: 100%;
+    }
     .contact-form-content .contact-form-img{
         display: none;
     }
