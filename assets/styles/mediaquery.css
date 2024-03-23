@@ -190,6 +190,9 @@ body p{
     .contact-home-grid{
         grid-template-columns: auto;
     }
+    .contact-form-content .contact-form-img{
+        display: none;
+    }
     .mobile-nav{
         height: 100vh;
         z-index: 73737;
