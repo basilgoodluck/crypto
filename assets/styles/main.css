@@ -100,8 +100,7 @@ body{
     color: #d97d28;
 }
 .home-container .home-text p{
-    font-size: 2rem;
-    /* font-weight: 100; */
+    font-size: 1rem;
     color: #ccc;
 }
 .home-container .home-text p a{
@@ -123,7 +122,7 @@ body{
 }
 .unmatched-container .unmatched-content h1{
     text-align: center;
-    color: #888;
+    color: #333;
 }
 .unmatched-container .unmatched-content h1 span{
     color: #091a66;
@@ -131,7 +130,7 @@ body{
 }
 .unmatched-container .unmatched-content > p{
     text-align: center;
-    color: #888;
+    color: #333;
     width: 80%;
     margin: 0 auto;
 }
@@ -158,7 +157,7 @@ body{
     width: 100%;
 }
 .trust-container h1{
-    color: #888;    
+    color: #ccc;    
     text-align: center;
     padding: 2rem;
 }
@@ -190,7 +189,7 @@ body{
     gap: 20px;
 }
 .service-container > h1{
-    color: #091a66;
+    color: #333;
     /* text-shadow: 0 0 10px #091a66; */
     width: 80%;
     margin: 0 auto;
@@ -201,7 +200,7 @@ body{
     /* padding: 0 0 5%; */
 }
 .service-container h1 span{
-    color: #d97d28;
+    color: #091a66;
     font-weight: 900;
 }
 .service-container .service-content{
@@ -239,26 +238,27 @@ body{
 .get-featured-content{
     width: 80%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #fff;
 }
 .get-featured-content .get-featured-item{
+    flex-basis: 33%;
     background-color: rgba(0, 0, 0, 0.3);
     /* border: 10px solid #091a66; */
-    padding: 5% 5%;
+    padding: 3%;
     display: grid;
     gap: 20px;
     border-radius: 20px;
-    /* transition: .78s ease; */
     cursor: pointer;
 }
 .get-featured-content .get-featured-item:hover{
     background: rgba(0, 0, 0, 0.4);
 }
 .get-featured-content .get-featured-item p{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: #ccc;
 }
 .get-featured-container h1 a{
     color: #d97d28;
@@ -277,15 +277,19 @@ body{
     padding: 5% 0;
 }
 .influencer-content .influencer-text h4{
-    color: #888;
+    color: #333;
     font-size: 1.2rem;
 }
 .influencer-content .influencer-text h1{
-    color: #493740;
+    color: #091a66;
     font-size: 1.5rem;
+}
+.influencer-content .influencer-text p{
+    color: #333;
 }
 .influencer-content .influencer-text h1 a{
     color: #d97d28;
+    font-size: 1rem;
 }
 .review-container{
     background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.3)), url('/assets/images/service-bg.jpg');
@@ -298,12 +302,12 @@ body{
     position: relative;
 }
 .review-container h1{
-    color: #091a66;
+    color: #fff;
     font-size: 2rem;
     text-align: center;
 }
 .review-container h1 span{
-    color: #d97d28;
+    color: #091a66;
 }
 .review-container .review-content{
     position: relative;
