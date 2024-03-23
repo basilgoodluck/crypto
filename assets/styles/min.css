@@ -228,6 +228,7 @@ body{
 }
 .contact-home-content i{
     color: #d97d28;
+    font-size: 3rem;
 }
 .contact-home-content > i{
     min-width: 10%;
