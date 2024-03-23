@@ -12,7 +12,7 @@ body p{
 
 @media screen and (max-width: 400px) {
     .home-container{
-        /* padding: 25% 5%; */
+        padding: 25% 5%;
     }
     .home-container .home-text h4{
         font-size: .8rem;
@@ -66,10 +66,7 @@ body p{
         display: flex;
     }
     .home-container{
-        /* padding: 25% 0; */
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        padding: 25% 0;
     }
     .home-content{
         width: 92%;
@@ -102,29 +99,25 @@ body p{
         grid-template-columns: auto;
         gap: 20px;
     }
-    .trust-container{
-        flex-direction: column;
-        width: 100%;
-    }
     .trust-container .trust-company{
         grid-template-columns: auto auto;
         gap: 10px;
-        width: 80%;
-        margin: 0 auto;
     }
     .service-container h1{
         font-size: 1.5rem;
         width: 80%;
         margin: 0 auto;
     }
+    .service-container p{
+        width: 90%;
+    }
     .service-container .service-content{
         grid-template-columns: auto;
-        /* width: 200%; */
-        /* padding: 0 10%; */
+        width: 90%;
     }
     .get-featured-container h1{
         font-size: 1.5rem;
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
     .get-featured-content{
