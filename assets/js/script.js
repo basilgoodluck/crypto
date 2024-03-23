@@ -1,5 +1,5 @@
-const navBar = document.querySelector('.mobile-nav-btn')
-let mobileCon = document.querySelector('.mobile-nav') 
+let navBar = document.getElementById('mobile-nav-btn')
+let mobileCon = document.getElementById('mobile-nav') 
 let slideBox = document.querySelector('.slidesBox')
 let slides = document.querySelectorAll('.slide')
 
@@ -8,7 +8,11 @@ let newWidth
 let slideInterval;
 let index = 1;
 
+let toggleNav = function () {
+    navBar.classList.toggle('active')
+    mobileCon.classList.toggle('active')
 
+}
 // slideBox.style.transform = `translateX(${-slideWidth * index}px)`
 let getSlides = ()=>{
     return document.querySelectorAll('.slide')
@@ -82,9 +86,5 @@ navleft.addEventListener('click', ()=>{
     clearInterval(slideInterval)
 })
 startSlide()
-const toggleNav = function () {
-    navBar.classList.toggle('active')
-    mobileCon.classList.toggle('active')
 
-}
 
