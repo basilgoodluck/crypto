@@ -88,3 +88,7 @@ navleft.addEventListener('click', ()=>{
 startSlide()
 
 
+let headCont = document.querySelector('.header-container')
+window.addEventListener('scrollY', ()=>{
+    headCont.classList.toggle('sticky')
+})
