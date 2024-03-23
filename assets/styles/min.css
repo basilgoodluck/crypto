@@ -79,7 +79,7 @@ body{
     color: #eee;
 }
 .crypto-service-content > p{
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     color: #888;
 }
@@ -106,7 +106,7 @@ body{
     font-size: 2.5rem;
 }
 .crypto-service-grid .crypto-service-item p a{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.1);
     display: block;
     width: 100%;
     color: #fff;
@@ -117,8 +117,8 @@ body{
     transition: .78s ease;
 }
 .crypto-service-grid .crypto-service-item p a:hover{
-    background-color: #aaa;
-    color: #333;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* color: #333; */
 }
 .crypto-service-grid p a:hover  .crypto-service-item{
     background-color: rgba(255, 255, 255, 0.1);
@@ -128,12 +128,15 @@ body{
     padding: 5% 0;
 }
 .crypto-faq-content{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto ;
     gap: 20px;
     color: #fff;
+}
+.crypto-faq-content h1{
+    font-size: 1.5rem;
 }
 .crypto-faq-content .crypto-grid-items{
     background-color: rgba(0, 0, 0, 0.3);
@@ -258,7 +261,7 @@ body{
 }
 .contact-form-container .contact-form-content{
     color: #fff !important;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -301,7 +304,7 @@ form .input-box textarea::placeholder{
     color: #888;
 }
 .contact-form-content .contact-form-img{
-    flex-basis: 50%;
+    flex-basis: 48%;
 }
 .contact-form-content .contact-form-img img{
     width: 100%;

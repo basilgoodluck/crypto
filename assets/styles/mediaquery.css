@@ -157,8 +157,14 @@
     .crypto-hh-wrapper .crypto-home-content{
         flex-direction: column-reverse;
     }
+    .crypto-hh-wrapper .crypto-home-content .crypto-home-img{
+        display: none;
+    }
+    .crypto-service-content > p{
+        width: 90%;
+    }
     .crypto-service-grid{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
     .crypto-service-grid .crypto-service-item{
         padding: 5%;
