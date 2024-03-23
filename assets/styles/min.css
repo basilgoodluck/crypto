@@ -166,12 +166,47 @@ body{
 .nft-container h1{
     font-size: 3rem;
 }
+.showcase-home{
+    background-color: #091a66;
+    padding: 5% 0;
+    display: grid;
+    gap: 20px;
+    color: #fff;
+}
+.showcase-home h1{
+    width: 80%;
+    margin: 0 auto;
+}
+.showcase-home > p{
+    width: 80%;
+    margin: 0 auto;
+}
 .showcase-home .showcase-grid{
     width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto auto;
     gap: 20px;
+}
+.showcase-grid .showcase-item{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+    display: grid;
+    gap: 20px;
+    padding: 3%;
+    border-radius: 10px;
+}
+.showcase-grid .showcase-item .show-case-text {
+    display: grid;
+    gap: 10px;
+}
+.showcase-grid .showcase-item .show-case-text p a{
+    background: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #08144b;
 }
 .showcase-item .show-case-img img{
     width: 100%;
