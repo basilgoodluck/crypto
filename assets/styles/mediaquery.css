@@ -88,16 +88,22 @@
     }
     .unmatched-content .unmatched-items{
         width: 92%;
-        grid-template-columns: auto;
-        gap: 20px;
+        flex-direction: column;
     }
     .trust-container .trust-company{
         grid-template-columns: auto auto;
         gap: 10px;
     }
+    .trust-container h1{
+        font-size: 1.5rem;
+    }
+    .service-container{
+        text-align: left;
+        
+    }
     .service-container h1{
         font-size: 1.5rem;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
     .service-container p{
@@ -117,7 +123,7 @@
         gap: 20px;
     }
     .get-featured-content .get-featured-item p{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .influencer-content{
         flex-direction: column-reverse;
