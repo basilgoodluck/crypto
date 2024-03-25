@@ -84,7 +84,7 @@
         margin: 0 auto;
     }
     .unmatched-container .unmatched-content > p{
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .unmatched-content .unmatched-items{
         width: 92%;
@@ -137,8 +137,16 @@
     .review-container{
         flex-direction: column;
     }
+    .review-container h1{
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0 auto;
+    }
     .review-container .review-content .review-text p{
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+    .slidesBox .slide p{
+        font-size: 1rem;
     }
     .footer-content{
         flex-direction: column;
