@@ -105,6 +105,9 @@ body{
 .crypto-service-grid .crypto-service-item p i{
     font-size: 2.5rem;
 }
+.crypto-service-grid .crypto-service-item p{
+    color: #ccc;
+}
 .crypto-service-grid .crypto-service-item p a{
     background-color: rgba(0, 0, 0, 0.1);
     display: block;
@@ -150,6 +153,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+}
+.crypto-faq-content .crypto-grid-items .crypto-quest .i{
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.crypto-faq-content .crypto-grid-items .crypto-quest .i .fa-minus{
+    display: none;
+}
+.crypto-faq-content .crypto-grid-items .crypto-quest .i.active .fa-minus{
+    display: block;
+}
+.crypto-faq-content .crypto-grid-items .crypto-quest .i.active .fa-plus{
+    display: none;
 }
 .crypto-faq-content .crypto-grid-items .crypto-answer {
     height: 0;
