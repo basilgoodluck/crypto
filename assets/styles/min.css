@@ -175,7 +175,7 @@ body{
     height: 0;
     overflow: hidden;
 }
-.crypto-faq-content .crypto-grid-items .crypto-answer.active{
+.crypto-faq-content .crypto-grid-items.active .crypto-answer{
     height: 100%;
     max-height: 500px;
 }
