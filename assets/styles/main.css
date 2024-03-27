@@ -534,7 +534,7 @@ body{
 }
 #mobile-nav{
     background-color: #fff;
-    box-shadow: 0 0 10px #eee;
+    /* box-shadow: 0 0 10px #eee; */
 }
 .mobile-nav .namenu{
     /* background-color: ; */

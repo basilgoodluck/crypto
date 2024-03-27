@@ -12,6 +12,8 @@ let toggleNav = function () {
     navBar.classList.toggle('active')
     mobileCon.classList.toggle('active')
 
+    document.body.overflow = 'hidden'
+
 }
 // slideBox.style.transform = `translateX(${-slideWidth * index}px)`
 let getSlides = ()=>{
