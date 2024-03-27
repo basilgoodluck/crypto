@@ -171,8 +171,8 @@
     .crypto-hh-wrapper .crypto-home-content{
         flex-direction: column;
     }
-    .crypto-hh-wrapper .crypto-home-content .crypto-home-img{
-        /* display: none; */
+    .crypto-service-content > h1{
+        font-size: 1.2rem;
     }
     .crypto-service-content > p{
         width: 90%;
