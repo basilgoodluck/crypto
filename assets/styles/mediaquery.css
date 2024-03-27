@@ -74,6 +74,9 @@
     .home-container .home-img{
         display: none;
     }
+    .showcase-home h1{
+        font-size: 1.2rem;
+    }
     .showcase-home .showcase-grid{
         width: 90%;
         grid-template-columns: auto;

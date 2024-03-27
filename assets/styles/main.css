@@ -230,15 +230,16 @@ body{
 .get-featured-container{
     padding: 3% 0;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/assets/images/working-man.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/working-man.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    color: #fff !important;
 }
 .get-featured-container h1{
     padding: 3% 0;
     text-align: center;
-    color: #ccc;
+    color: #fff;
     font-size: 2rem;
 }
 .get-featured-container h1 span{
