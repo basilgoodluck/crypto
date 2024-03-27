@@ -207,7 +207,7 @@
         /* background-color: rgb(12, 12, 54); */
         background-color: #fff;
         position: fixed;
-        width: 60%;
+        width: 100%;
         left: -100%;
         transition: .33s ease;
         display: block;

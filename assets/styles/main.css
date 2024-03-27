@@ -487,6 +487,7 @@ body{
     height: 30px;
     position: relative;
     cursor: pointer;
+    z-index: 99999999;
 }
 .mobile-nav-btn div{
     display: block;
