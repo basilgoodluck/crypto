@@ -63,7 +63,7 @@
         font-size: 1rem;
     }
     .home-container .home-text h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .home-container .home-text p{
         font-size: .8rem;
@@ -79,7 +79,7 @@
         grid-template-columns: auto;
     }
     .unmatched-container .unmatched-content h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         width: 60%;
         margin: 0 auto;
     }
@@ -95,14 +95,14 @@
         gap: 10px;
     }
     .trust-container h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .service-container{
         text-align: left;
         
     }
     .service-container h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         width: 90%;
         margin: 0 auto;
     }
@@ -114,7 +114,7 @@
         width: 90%;
     }
     .get-featured-container h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         width: 80%;
         margin: 0 auto;
     }
@@ -138,7 +138,7 @@
         flex-direction: column;
     }
     .review-container h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         width: 80%;
         margin: 0 auto;
     }
@@ -166,13 +166,13 @@
         padding: 3% 0 ;
     }
     .crypto-hh-wrapper .crypto-home-content h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .crypto-hh-wrapper .crypto-home-content{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .crypto-hh-wrapper .crypto-home-content .crypto-home-img{
-        display: none;
+        /* display: none; */
     }
     .crypto-service-content > p{
         width: 90%;
