@@ -314,6 +314,7 @@ form .input-box input{
     padding: 10px 20px;
     box-shadow: 0 0 10px #091a66; 
     border-radius: 10px;
+    color: #fff;
 }
 form .input-box input::placeholder{
     color: #888;

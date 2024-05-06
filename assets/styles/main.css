@@ -55,13 +55,13 @@ body{
     padding: 0.5rem 1rem;
 }
 .header-container .nav-menu p a{
-    color: #091a66;
+    color: #333;
     text-decoration: none;
     transition: .78s ease;
     text-shadow: 0 0 30px #c9c;
 }
 .header-container .nav-menu p:hover a{
-    color: #fff;
+    color: #000;
 }
 .header-container .get-start p{
     padding: 0.5rem 1rem;
@@ -317,7 +317,7 @@ body{
     text-align: center;
 }
 .review-container h1 span{
-    color: #091a66;
+    color: #d97d28;
 }
 .review-container .review-content{
     position: relative;
